@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Alkem Boi Cariliman — Developer Profile</title>
+<desc id="desc">A modern developer-themed banner with terminal-inspired panels and a blue cyan accent palette.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080F1D"/><stop offset="1" stop-color="#101C30"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#42D9F5"/><stop offset="1" stop-color="#6B72FF"/>
+  </linearGradient>
+  <radialGradient id="orb"><stop stop-color="#6B72FF" stop-opacity=".25"/><stop offset="1" stop-color="#6B72FF" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<circle cx="1020" cy="70" r="210" fill="url(#orb)" filter="url(#blur)"/>
+<circle cx="1050" cy="300" r="160" fill="url(#orb)" filter="url(#blur)"/>
+<rect x="34" y="30" width="1132" height="300" rx="18" fill="none" stroke="#7C8FAE" stroke-opacity=".28"/>
+<path d="M34 82H1166" stroke="#7C8FAE" stroke-opacity=".3"/>
+<circle cx="62" cy="56" r="6" fill="#FF6B6B"/><circle cx="84" cy="56" r="6" fill="#FFC857"/><circle cx="106" cy="56" r="6" fill="#50D890"/>
+<text x="132" y="62" font-family="monospace" font-size="15" fill="#7C8FAE">alkem@github: ~/profile</text>
+<text x="78" y="153" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#EAF4FF">Alkem Boi Cariliman</text>
+<text x="80" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#42D9F5">BS Information Technology Student</text>
+<text x="80" y="235" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#A8B9D2">Building projects · Exploring technology · Learning every day</text>
+<rect x="80" y="265" width="260" height="3" rx="2" fill="url(#line)"/>
+<text x="80" y="300" font-family="monospace" font-size="14" fill="#7C8FAE">const focus = ["web", "software", "IoT"];</text>
+<g transform="translate(800 116)">
+  <rect width="300" height="142" rx="14" fill="#101C30" stroke="#7C8FAE" stroke-opacity=".35"/>
+  <text x="22" y="34" font-family="monospace" font-size="14" fill="#7C8FAE">developer.json</text>
+  <text x="22" y="67" font-family="monospace" font-size="15" fill="#42D9F5">{</text>
+  <text x="42" y="91" font-family="monospace" font-size="14" fill="#EAF4FF">"name": <tspan fill="#42D9F5">"Alkem"</tspan>,</text>
+  <text x="42" y="114" font-family="monospace" font-size="14" fill="#EAF4FF">"location": <tspan fill="#42D9F5">"Philippines"</tspan></text>
+  <text x="22" y="135" font-family="monospace" font-size="15" fill="#42D9F5">}</text>
+</g>
+</svg>
